@@ -4,17 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kalashamala Eco Tourism</title>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
 <body>
-    <p>Kalashamala Eco-Tourism in Kunnamkulam is a hidden gem that offers a unique blend of natural beauty, cultural
-        significance, and ecological awareness. It is a destination that reconnects visitors with the environment and
-        offers a chance to enjoy nature while preserving its delicate balance. The area is managed with a focus on
-        sustainable tourism, featuring a sacred grove, biodiversity, and eco-tourism initiatives. Visitors can enjoy
-        walking trails, explore ancient temples, and engage in activities that promote the use of local products.
-        Kalashamala is suitable for families and offers eco-friendly accommodations. With its serene landscapes and
-        commitment to nature conservation, Kalashamala stands out as a model for responsible tourism in Kerala.</p>
+    <div class="container-fluid">
+        <!-- HERO SECTION BEGIN -->
+        <div class="hero_bg"></div>
+        <div class="d-flex pt-5">
+            <div class="content d-flex hero_1 justify-content-between align-items-center border-rounded">
+                <!-- HEADING -->
+                <h1 class="fs-1 heading">Kalashamala <br>Eco Tourism</h1>
+                <!-- AUTENTICATION INTERFACE BEGIN -->
+                <div
+                    class="bg-secondary p-3 signin d-flex flex-column gap-3 align-items-center rounded-4 justify-content-center">
+                    <input type="number" name="phone" id="phone" class="form-control form-control-lg m-2 sigin_input"
+                        placeholder="Enter Mobile Number">
+                    <button class="btn btn-primary" id="request_btn">Request OTP</button>
+                    <input type="number" name="otp" id="otpbox" class="form-control form-control-lg m-2 sigin_input"
+                        placeholder="Enter OTP">
+                    <button class="btn btn-primary" id="submit_btn">Submit OTP</button>
+                </div>
+                <!-- AUTENTICATION INTERFACE END -->
+            </div>
+        </div>
+        <!-- HERO SECTION END -->
+        
+        <!-- INTRODUCTION BEGIN-->
+        <p class="mt-5 mx-5 lh-lg text-light fs-4 text">Kalashamala Eco-Tourism in Kunnamkulam is a hidden gem that offers a unique blend of
+            natural beauty, cultural
+            significance, and ecological awareness. It is a destination that reconnects visitors with the environment
+            and
+            offers a chance to enjoy nature while preserving its delicate balance. The area is managed with a focus on
+            sustainable tourism, featuring a sacred grove, biodiversity, and eco-tourism initiatives. Visitors can enjoy
+            walking trails, explore ancient temples, and engage in activities that promote the use of local products.
+            Kalashamala is suitable for families and offers eco-friendly accommodations. With its serene landscapes and
+            commitment to nature conservation, Kalashamala stands out as a model for responsible tourism in Kerala.
+        </p>
+        <!-- INTRODUCTION END-->
+
+        <!-- SWIPER BEGIN-->
+        <div class="swiper m-5">
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/front.jpg" alt="Kalashamala image 1" class="w-100 h-100"></div>
+                <div class="swiper-slide"><img src="./images/random1.webp" alt="Kalashamala image 2" class="w-100 h-100"></div>
+                <div class="swiper-slide"><img src="./images/park.jpg" alt="Kalashamala image 3" class="w-100 h-100"></div>
+                <div class="swiper-slide"><img src="./images/cafe.webp" alt="Kalashamala image 4" class="w-100 h-100"></div>
+                <div class="swiper-slide"><img src="./images/kalasamala.jpg" alt="Kalashamala image 5" class="w-100 h-100"></div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <!-- SWIPER END-->
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
