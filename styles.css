@@ -15,15 +15,13 @@ input[type=number] {
     padding: 0;
 }
 
+/* HERO SECTION BEGIN */
+
 .hero_bg {
     background-image: url("./images/kalasamala.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    z-index: -1;
 }
 
 .hero_1 {
@@ -53,6 +51,9 @@ input[type=number] {
     border-radius: 0;
     width: 80%;
 }
+
+/* HERO SECTION END */
+
 .swiper{
     width: 500px;
     height: 300px;
@@ -62,4 +63,27 @@ input[type=number] {
 .text{
     text-indent: 5%;
     text-align: justify;
+    text-shadow: 0px 0px 2px rgb(122, 158, 224);
 }
+
+/* WHY SECTION BEGIN */
+
+.grid_col{
+    background-color: blanchedalmond;
+}
+
+.why_text{
+    text-indent: 15%;
+    text-align: justify;
+}
+
+/* WHY SECTION END */
+
+/* FEATURES SECTION BEGIN */
+
+.features{
+    background-color: rgba(255, 235, 205, 0.274);
+}
+
+/* FEATURES SECTION END */
+
