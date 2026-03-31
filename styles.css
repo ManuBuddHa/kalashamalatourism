@@ -87,3 +87,10 @@ input[type=number] {
 
 /* FEATURES SECTION END */
 
+/* HOVER EFFECTS: BOX */
+
+.box:hover{
+    
+    box-shadow: 0 0 10px rgb(62, 88, 235);
+    transform: translateY(-10px);
+}
