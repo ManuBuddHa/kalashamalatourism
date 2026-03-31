@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* INPUT NUMBER STYLE BEGIN  */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove arrows in Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+/* INPUT NUMBER STYLE END  */
+
+/* FORM STYLE BEGIN */
+
+form{
+    background-color: rgba(221, 221, 221, 0.288) !important;
+    box-shadow: 0 0 10px rgba(126, 68, 233, 0.596);
+}
+
+.feedback{
+    height: 15vh;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgba(78, 87, 224, 0.400) !important;
+}
+
+/* FORM INVALID EFFECT BEGIN */
+
+.invalid{
+    animation-name: invalidAnimation;
+    animation-duration:  0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes invalidAnimation{
+    0% {transform: translateX(5px);}
+    25% {transform: translateX(-5px);}
+    50% {transform: translateX(5px);}
+    75% {transform: translateX(-5px);}
+    100% {transform: translateX(5px);}
+    
+}
+/* FORM INVALID EFFECT END */
+
+/* FORM STYLE END */

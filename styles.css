@@ -18,7 +18,7 @@ input[type=number] {
 /* HERO SECTION BEGIN */
 
 .hero_bg {
-    background-image: url("./images/kalasamala.jpg");
+    background-image: url("./images/hero_bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,13 +37,15 @@ input[type=number] {
     text-shadow: 2px 2px 4px black;
 }
 
+/* AUTHENTICATION BEGIN */
+
 .signin{
     width: 40%;
-    background-color: rgba(240, 248, 255, 0.61) !important;
+    background-color: rgba(240, 248, 255, 0.41) !important;
     height: 350px;
 }
 .sigin_input::placeholder{
-    color: rgb(83, 166, 235);
+    color: rgba(211, 48, 48, 0.514);
 }
 .sigin_input{
     border: none !important;
@@ -53,11 +55,29 @@ input[type=number] {
     width: 80%;
 }
 
+.invalid{
+    animation-name: invalidAnimation;
+    animation-duration:  0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes invalidAnimation{
+    0% {transform: translateX(5px);}
+    25% {transform: translateX(-5px);}
+    50% {transform: translateX(5px);}
+    75% {transform: translateX(-5px);}
+    100% {transform: translateX(5px);}
+    
+}
+
+/* AUTHENTICATION END */
+
 /* HERO SECTION END */
 
 .swiper{
-    width: 500px;
-    height: 300px;
+    width: 50vw;
+    height: 30vw;
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -94,4 +114,13 @@ input[type=number] {
     
     box-shadow: 0 0 10px rgb(62, 88, 235);
     transform: translateY(-10px);
+}
+
+/* Link */
+a{
+    text-decoration: none;
+    transition: color 1s;
+}
+a:hover{
+    color: #0d6efd !important;
 }
