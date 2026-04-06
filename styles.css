@@ -22,7 +22,7 @@ input[type=number] {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh !important;
+    /* height: 70vh !important; */
 }
 
 .hero_1 {
@@ -32,7 +32,7 @@ input[type=number] {
 }
 
 .heading{
-    font-size: 6em !important;
+    font-size: 5vw !important;
     color: white;
     text-shadow: 2px 2px 4px black;
 }
